@@ -9,31 +9,31 @@
         <title>Projeto Bootstrap 4</title>
         <link rel="stylesheet" href="assents/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assents/css/teste.css" />
-        
     
     </head>
 
     <body>
+        
+        <!--TRABALHANDO COM LIMITES DE COLUNAS-->
 
+        <!--O BOOTSTRAP ENTENDE QUE POSSUI 12 COLUNAS PARA CADA LINHA
+            QUANDO NÃO É ESPECIFICADO 'col' ELE FAZ O AJUSTE ALTOMATICAMENTE-->
         <div class="container">
             <div class="row">
                 <div class="col teste1"><h4>Coluna 1</h4></div>
                 <div class="col teste1"><h4>Coluna 2</h4></div>
                 <div class="col teste1"><h4>Coluna 3</h4></div>
-                <div class="w-100"></div><!--UMA DAS FORMAS DE CRIAR UMA QUEBRA DE LINHA-->
-                <div class="col teste1"><h4>Coluna 4</h4></div>
+                <div class="w-100"></div>
+                <div class="col-2 teste1"><h4>Coluna 4</h4></div><!--SE FOR ESPECIFICADO 'col-4' O BOOTSTRAP FAZ O ALTO AJUSTE SEMPRE CONTANDO COM 12 COLUNAS AO TOTAL-->
                 <div class="col teste1"><h4>Coluna 5</h4></div>
                 <div class="col teste1"><h4>Coluna 6</h4></div>
-            </div>
-            <div class="row">
-                <div class="col teste2"><h4>Coluna 1</h4></div>
-                <div class="col teste2"><h4>Coluna 2</h4></div>
-                <div class="col teste2"><h4>Coluna 3</h4></div>
-            </div>
-            <div class="row"><!--A SEGUNDA FORMA É CRIANDO UMA SEGUNDA LINHA E TERMINANDO O CONTEÚDO DELA NA LINHA SEGUINTE-->
-                <div class="col teste2"><h4>Coluna 4</h4></div>
-                <div class="col teste2"><h4>Coluna 5</h4></div>
-                <div class="col teste2"><h4>Coluna 6</h4></div>
+                <div class="w-100"></div>
+                <div class="col teste1"><h4>Coluna 7</h4></div>
+                <div class="col-6 teste1"><h4>Coluna 8</h4></div><!--OU SEJA, AQUI ELE SEPARA 6 COLUNAS E AS DEMAIS FICAM COM 3 COLUNAS-->
+                <div class="col teste1"><h4>Coluna 9</h4></div>
+                <div class="col-sm teste1"><h4>Coluna 10</h4></div><!--É POSSIVEL AJUSTAR PARA DISPOSITIVOS MOBILE-->
+                <div class="col teste1"><h4>Coluna 11</h4></div>
+                <div class="col-2 teste1"><h4>Coluna 12</h4></div>
             </div>
         </div>
 
