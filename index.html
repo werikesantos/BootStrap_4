@@ -6,42 +6,37 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <!--shrink-to-fit=no => DEFINIÇÃO DO BOOTSTRAP. SERVE PARA COMPRIMIR OS ELEMETOS NA TELA-->
         <title>Projeto Bootstrap 4</title>
         <link rel="stylesheet" href="assents/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assents/css/teste.css" />
     
     </head>
 
     <body>
+        
+        <!--TRABALHANDO COM LIMITES DE COLUNAS-->
 
-        <!--CADA UMA DAS FORMAS DE GRID PODEM SER MISTURADAS E SERÃO REAJUSTADAS CONFORME ALTERAÇÃO NO TAMANHO DA TELA-->
+        <!--O BOOTSTRAP ENTENDE QUE POSSUI 12 COLUNAS PARA CADA LINHA
+            QUANDO NÃO É ESPECIFICADO 'col' ELE FAZ O AJUSTE ALTOMATICAMENTE-->
         <div class="container">
             <div class="row">
-                <div class="col" style="background-color: yellow;"><h4>Coluna 1</h4></div>
-                <div class="col" style="background-color: green;"><h4>Coluna 2</h4></div>
-                <div class="col" style="background-color: red;"><h4>Coluna 3</h4></div>
-            </div>
-                <div class="row">
-                <div class="col-sm" style="background-color: yellow;"><h4>Coluna 1</h4></div><!--col-sm => SERÁ REAJUSTADO QUANDO A TELA FOR DO TAMANHO DE UM CELULAR-->
-                <div class="col-sm" style="background-color: green;"><h4>Coluna 2</h4></div>
-                <div class="col-sm" style="background-color: red;"><h4>Coluna 3</h4></div>
-            </div>
-                <div class="row">
-                <div class="col-md" style="background-color: yellow;"><h4>Coluna 1</h4></div><!--col-md => SERÁ REAJUSTADO QUANDO A TELA FOR DO TAMANHO DE UM TABLETE-->
-                <div class="ccol-md" style="background-color: green;"><h4>Coluna 2</h4></div>
-                <div class="col-md" style="background-color: red;"><h4>Coluna 3</h4></div>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-lg" style="background-color: yellow;"><h4>Coluna 1</h4></div><!--col-md => SERÁ REAJUSTADO QUANDO A TELA FOR DO TAMANHO DE UM MONITORES-->
-                <div class="ccol-lg" style="background-color: green;"><h4>Coluna 2</h4></div>
-                <div class="col-lg" style="background-color: red;"><h4>Coluna 3</h4></div>
+                <div class="col teste1"><h4>Coluna 1</h4></div>
+                <div class="col teste1"><h4>Coluna 2</h4></div>
+                <div class="col teste1"><h4>Coluna 3</h4></div>
+                <div class="w-100"></div>
+                <div class="col-2 teste1"><h4>Coluna 4</h4></div><!--SE FOR ESPECIFICADO 'col-4' O BOOTSTRAP FAZ O ALTO AJUSTE SEMPRE CONTANDO COM 12 COLUNAS AO TOTAL-->
+                <div class="col teste1"><h4>Coluna 5</h4></div>
+                <div class="col teste1"><h4>Coluna 6</h4></div>
+                <div class="w-100"></div>
+                <div class="col teste1"><h4>Coluna 7</h4></div>
+                <div class="col-6 teste1"><h4>Coluna 8</h4></div><!--OU SEJA, AQUI ELE SEPARA 6 COLUNAS E AS DEMAIS FICAM COM 3 COLUNAS-->
+                <div class="col teste1"><h4>Coluna 9</h4></div>
+                <div class="col-sm teste1"><h4>Coluna 10</h4></div><!--É POSSIVEL AJUSTAR PARA DISPOSITIVOS MOBILE-->
+                <div class="col teste1"><h4>Coluna 11</h4></div>
+                <div class="col-2 teste1"><h4>Coluna 12</h4></div>
             </div>
         </div>
 
-        <!--TODO O JS DEVE SER CARREGADO NO FINAL E DENTRO DO BODY. 
-            SEM ISSO O SITE DEMORA MUITO PARA CARREGAR-->
-        <!--SEMPRE CARREGAR O JQUERY PRIMEIRO-->
         <script type="text/javascript" src="assents/js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="assents/js/bootstrap.bundle.min.js"></script>
     </body>
