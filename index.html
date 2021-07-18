@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!--shrink-to-fit=no => DEFINIÇÃO DO BOOTSTRAP. SERVE PARA COMPRIMIR OS ELEMETOS NA TELA-->
+        <title>Projeto Bootstrap 4</title>
+        <link rel="stylesheet" href="assents/css/bootstrap.min.css" />
+    
+    </head>
+
+    <body>
+
+        <!--CADA UMA DAS FORMAS DE GRID PODEM SER MISTURADAS E SERÃO REAJUSTADAS CONFORME ALTERAÇÃO NO TAMANHO DA TELA-->
+        <div class="container">
+            <div class="row">
+                <div class="col" style="background-color: yellow;"><h4>Coluna 1</h4></div>
+                <div class="col" style="background-color: green;"><h4>Coluna 2</h4></div>
+                <div class="col" style="background-color: red;"><h4>Coluna 3</h4></div>
+            </div>
+                <div class="row">
+                <div class="col-sm" style="background-color: yellow;"><h4>Coluna 1</h4></div><!--col-sm => SERÁ REAJUSTADO QUANDO A TELA FOR DO TAMANHO DE UM CELULAR-->
+                <div class="col-sm" style="background-color: green;"><h4>Coluna 2</h4></div>
+                <div class="col-sm" style="background-color: red;"><h4>Coluna 3</h4></div>
+            </div>
+                <div class="row">
+                <div class="col-md" style="background-color: yellow;"><h4>Coluna 1</h4></div><!--col-md => SERÁ REAJUSTADO QUANDO A TELA FOR DO TAMANHO DE UM TABLETE-->
+                <div class="ccol-md" style="background-color: green;"><h4>Coluna 2</h4></div>
+                <div class="col-md" style="background-color: red;"><h4>Coluna 3</h4></div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-lg" style="background-color: yellow;"><h4>Coluna 1</h4></div><!--col-md => SERÁ REAJUSTADO QUANDO A TELA FOR DO TAMANHO DE UM MONITORES-->
+                <div class="ccol-lg" style="background-color: green;"><h4>Coluna 2</h4></div>
+                <div class="col-lg" style="background-color: red;"><h4>Coluna 3</h4></div>
+            </div>
+        </div>
+
+        <!--TODO O JS DEVE SER CARREGADO NO FINAL E DENTRO DO BODY. 
+            SEM ISSO O SITE DEMORA MUITO PARA CARREGAR-->
+        <!--SEMPRE CARREGAR O JQUERY PRIMEIRO-->
+        <script type="text/javascript" src="assents/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="assents/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
