@@ -6,78 +6,34 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>Projeto Bootstrap 4</title>
+        <title>Login</title>
         <link rel="stylesheet" href="assents/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assents/css/teste.css" />
-    
+        <link rel="stylesheet" href="assents/css/style.css" />
     </head>
 
     <body>
         
-        <!--SISTEMA DE COMENTARIOS-->
+        <div class="area rounded">
+            <!-- <img class="logo" src="http://www.google.com.br/google.jpg" alt="Logo do site"><!--logo => CLASSE CRIADA PARA CENTRALIZAR A IMAGEM DENTRO A DIV CLASS AREA-->
+            <h2>Faça seu login</h2>
 
-        <div class="container">
-            <div class="media"><!--CLASSE QUE CONSTROE A ESTRUTURA-->
-                <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu"><!--mr-3 => AJUSTA O ESPAÇO ENTRE A FOTO E O COMENTARIO-->
-                <div class="media-body">
-                    <h5>Titulo</h5>
-                    <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                        Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                    </p>
-                </div>
-            </div>
-         
+            <form action="" style="text-align: left;">
+                <p style="color: #820AD1;">E-Mail<input class="form-controll form-control espaco border-left-0 border-right-0 border-top-0" type="email" name="email"></p><br><!--class="form-control" => FORMATA O CAMPO USANDO O BOOTSTRAP-->
+                <p style="color: #820AD1;">Senha<input class="form-controll form-control espaco border-left-0 border-right-0 border-top-0" type="password" name="password"></p>         
+                <label class="remember">
+                    <input type="checkbox" name="remember" value="1"> Lembrar senha
+                </label>
 
-            <!--EXEMPLO USANDO DENTRO DE UMA LISTA-->
-            <ul class="list-unstylied">
-                <li class="media">
-                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu align-self-start"><!--AJUSTANDO A POSIÇÃO DA IMAGEM NO INICIO(PADRÃO)-->
-                    <div class="media-body">
-                        <h5>Titulo 1</h5>
-                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                        </p>
-                    </div>
-                </li>
-                <li class="media">
-                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu align-self-center"><!--AJUSTANDO A POSIÇÃO DA IMAGEM NO MEIO-->
-                    <div class="media-body">
-                        <h5>Titulo 2</h5>
-                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                        </p>
-                    </div>
-                </li>
-                <li class="media">
-                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu align-self-end"><!--AJUSTANDO A POSIÇÃO DA IMAGEM NO FIM-->
-                    <div class="media-body">
-                        <h5>Titulo 3</h5>
-                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                        </p>
-                    </div>
-                </li>
-                <li class="media">
-                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu">
-                    <div class="media-body">
-                        <h5>Titulo 4</h5>
-                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                        </p>
-                    </div>
-                </li>
-                <li class="media">
-                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu">
-                    <div class="media-body">
-                        <h5>Titulo 5</h5>
-                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
-                        </p>
-                    </div>
-                </li>
-            </ul>
+                <input type="submit" value="Login" class="btn btn-lg corBotaoEnter btn-block">
+                <!--btn => DEFINI QUE É UM BOTAO-->
+                <!--btn-lg => DEFINI QUE É UM BOTAO LARGO-->
+                <!--btn-primary => DEFINI QUE É UM BOTAO DE COR AZUL-->
+                <!--btn-block => DEFINI QUE É O BOTAO VAI OCUPAR TODA UMA LINHA-->
+            </form>
 
-        </div> 
+            <P style="padding-top: 20px;"><b><a href="" style="color: #820AD1;">Esqueci minha senha></a></b></P>
+            <P><b><a href="" style="color: #820AD1;">Ainda não sou cliente></a></b></P>
+        </div>
 
         <script type="text/javascript" src="assents/js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="assents/js/bootstrap.bundle.min.js"></script>
