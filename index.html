@@ -14,63 +14,70 @@
 
     <body>
         
-        <!--AJUSTANDO O CONTEINER-->
-
-        <!--ATENÇÃO: AS COLUNAS RECEBERAM O TAMANHO 3 TOTALIZANDO 9 COLUNAS PARA CADA LINHA-->
+        <!--SISTEMA DE COMENTARIOS-->
 
         <div class="container">
-            <div class="row -justify-content-start" style="background-color: #FF9999; padding: 10px;"><!--justify-content-start => CENTRALIZA O CONTEINER NO INICIO-->
-                <div class="col-3 teste1"><h4>Coluna 1</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 2</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 3</h4></div>
+            <div class="media"><!--CLASSE QUE CONSTROE A ESTRUTURA-->
+                <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu"><!--mr-3 => AJUSTA O ESPAÇO ENTRE A FOTO E O COMENTARIO-->
+                <div class="media-body">
+                    <h5>Titulo</h5>
+                    <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                        Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                    </p>
+                </div>
             </div>
-            <div class="row justify-content-center" style="background-color: #FF9999; padding: 10px;"><!--justify-content-center => CENTRALIZA O CONTEINER NO MEIO-->
-                <div class="col-3 teste1"><h4>Coluna 4</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 5</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 6</h4></div>
-            </div>
-            <div class="row justify-content-end" style="background-color: #FF9999; padding: 10px;"><!--justify-content-end => CENTRALIZA O CONTEINER NO FINAL-->
-                <div class="col-3 teste1"><h4>Coluna 7</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 8</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 9</h4></div>
-            </div>
-            <div class="row justify-content-around" style="background-color: #FF9999; padding: 10px;"><!--justify-content-around => DIVIDIR AS COLUNAS COM ESPAÇOS-->
-                <div class="col-3 teste1"><h4>Coluna 10</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 11</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 12</h4></div>
-            </div>
-            <div class="row justify-content-between" style="background-color: #FF9999; padding: 10px;"><!--justify-content-between => DIVIDIR AS COLUNAS COM ESPAÇOS E CENTRALIZANDOS-->
-                <div class="col-3 teste1"><h4>Coluna 13</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 14</h4></div>
-                <div class="col-3 teste1"><h4>Coluna 15</h4></div>
-            </div>
+         
 
-            <!--ALINHANDO NA VERTICAL-->
+            <!--EXEMPLO USANDO DENTRO DE UMA LISTA-->
+            <ul class="list-unstylied">
+                <li class="media">
+                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu align-self-start"><!--AJUSTANDO A POSIÇÃO DA IMAGEM NO INICIO(PADRÃO)-->
+                    <div class="media-body">
+                        <h5>Titulo 1</h5>
+                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                        </p>
+                    </div>
+                </li>
+                <li class="media">
+                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu align-self-center"><!--AJUSTANDO A POSIÇÃO DA IMAGEM NO MEIO-->
+                    <div class="media-body">
+                        <h5>Titulo 2</h5>
+                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                        </p>
+                    </div>
+                </li>
+                <li class="media">
+                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu align-self-end"><!--AJUSTANDO A POSIÇÃO DA IMAGEM NO FIM-->
+                    <div class="media-body">
+                        <h5>Titulo 3</h5>
+                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                        </p>
+                    </div>
+                </li>
+                <li class="media">
+                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu">
+                    <div class="media-body">
+                        <h5>Titulo 4</h5>
+                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                        </p>
+                    </div>
+                </li>
+                <li class="media">
+                    <img src="assents/images/Eu.png" alt="Foto da pessoa que fez o comentario" class="mr-3 ajustesMeu">
+                    <div class="media-body">
+                        <h5>Titulo 5</h5>
+                        <p>Conteudo Conteudo  Conteudo  Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                            Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo 
+                        </p>
+                    </div>
+                </li>
+            </ul>
 
-            <div class="row" style="background-color: #b30909; padding: 10px; height: 500px;"><!--AJUSTANDO ALTURA-->
-                <div class="col-3 teste3"><h4>Coluna 16</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 17</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 18</h4></div>
-            </div>
-            <div class="row align-items-end" style="background-color: #b30997; padding: 10px; height: 500px;"><!--align-items-end => ALINHANDO NA VERTICAL COLOCANDO A COLUNA NO FINAL-->
-                <div class="col-3 teste3"><h4>Coluna 19</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 20</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 21</h4></div>
-            </div>
-            <div class="row align-items-center" style="background-color: #107003; padding: 10px; height: 500px;"><!--align-items-center => ALINHANDO NA VERTICAL COLOCANDO A COLUNA NO FINAL-->
-                <div class="col-3 teste3"><h4>Coluna 22</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 23</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 24</h4></div>
-            </div>
-
-            <!--CENTRALIZANDO NA HORIZONTAL E VERTICAL-->
-
-            <div class="row justify-content-center align-items-center" style="background-color: #21beda; padding: 10px; height: 500px;"><!--justify-content-center // align-items-center => ALINHANDO NA VERTICAL E HORIZONTAL-->
-                <div class="col-3 teste3"><h4>Coluna 22</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 23</h4></div>
-                <div class="col-3 teste3"><h4>Coluna 24</h4></div>
-            </div>
-        </div>
+        </div> 
 
         <script type="text/javascript" src="assents/js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="assents/js/bootstrap.bundle.min.js"></script>

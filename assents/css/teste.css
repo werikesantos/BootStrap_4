@@ -1,15 +1,9 @@
-.teste1{
-    background-color: cornflowerblue;
-    border: 1px solid royalblue;
-}
-
-.teste2{
-    background-color: aqua;
-    border: 1px solid chartreuse;
-}
-
-.teste3{
-    background-color: rgb(29, 71, 1);
-    border: 1px solid rgb(0, 80, 90);
+.ajustesMeu{
+    width: 50px;
     height: 50px;
+}
+
+.media{
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #CCC;
 }
