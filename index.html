@@ -14,26 +14,39 @@
 
     <body>
         
-        <!--TRABALHANDO COM LIMITES DE COLUNAS-->
+        <!--REORDENANDO COLUNAS-->
 
-        <!--O BOOTSTRAP ENTENDE QUE POSSUI 12 COLUNAS PARA CADA LINHA
-            QUANDO NÃO É ESPECIFICADO 'col' ELE FAZ O AJUSTE ALTOMATICAMENTE-->
         <div class="container">
             <div class="row">
                 <div class="col teste1"><h4>Coluna 1</h4></div>
                 <div class="col teste1"><h4>Coluna 2</h4></div>
-                <div class="col teste1"><h4>Coluna 3</h4></div>
-                <div class="w-100"></div>
-                <div class="col-2 teste1"><h4>Coluna 4</h4></div><!--SE FOR ESPECIFICADO 'col-4' O BOOTSTRAP FAZ O ALTO AJUSTE SEMPRE CONTANDO COM 12 COLUNAS AO TOTAL-->
-                <div class="col teste1"><h4>Coluna 5</h4></div>
-                <div class="col teste1"><h4>Coluna 6</h4></div>
-                <div class="w-100"></div>
-                <div class="col teste1"><h4>Coluna 7</h4></div>
-                <div class="col-6 teste1"><h4>Coluna 8</h4></div><!--OU SEJA, AQUI ELE SEPARA 6 COLUNAS E AS DEMAIS FICAM COM 3 COLUNAS-->
-                <div class="col teste1"><h4>Coluna 9</h4></div>
-                <div class="col-sm teste1"><h4>Coluna 10</h4></div><!--É POSSIVEL AJUSTAR PARA DISPOSITIVOS MOBILE-->
-                <div class="col teste1"><h4>Coluna 11</h4></div>
-                <div class="col-2 teste1"><h4>Coluna 12</h4></div>
+                <div class="col order-first" style="background-color: red;"><h4>Coluna 3</h4></div> <!--order-first => PARA PRIMEIRO LUGAR-->
+            </div>
+            <div class="row">
+                <div class="col teste2 order-last" style="background-color: red"><h4>Coluna 1</h4></div> <!--order-last => PARA ULTIMO LUGAR-->
+                <div class="col teste2"><h4>Coluna 2</h4></div>
+                <div class="col teste2"><h4>Coluna 3</h4></div>
+            </div>
+
+            <!--REORDENANDO COLUNAS COM NUMEROS-->
+
+            <!--COLUNAS DESORDENAS VÊEM PRIMEIRO-->
+            <div class="row">
+                <div class="col teste2 order-1" style="background-color: red"><h4>Coluna 1</h4></div> 
+                <div class="col teste2"><h4>Coluna 2</h4></div>
+                <div class="col teste2"><h4>Coluna 3</h4></div>
+            </div>
+
+            <div class="row">
+                <div class="col teste1 order-3" style="background-color: red"><h4>Coluna 1</h4></div> <!--order-1... => QUANDO USAR NUMEROS, TODAS AS COLUNAS DEVEM SER ORDENADAS POR NUMEROS TBM.-->
+                <div class="col teste1 order-2"><h4>Coluna 2</h4></div>
+                <div class="col teste1 order-1"><h4>Coluna 3</h4></div>
+            </div>
+
+            <div class="row">
+                <div class="col teste1 order-1" style="background-color: red"><h4>Coluna 3</h4></div> 
+                <div class="col teste1 order-2"><h4>Coluna 1</h4></div>
+                <div class="col teste1 order-3"><h4>Coluna 2</h4></div>
             </div>
         </div>
 
