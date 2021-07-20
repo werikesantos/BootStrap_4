@@ -6,35 +6,33 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>Projeto Bootstrap 4</title>
+        <title>Login</title>
         <link rel="stylesheet" href="assents/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assents/css/teste.css" />
-    
+        <link rel="stylesheet" href="assents/css/style.css" />
     </head>
 
     <body>
         
-        <!--TRABALHANDO COM LIMITES DE COLUNAS-->
+        <div class="area rounded">
+            <!-- <img class="logo" src="http://www.google.com.br/google.jpg" alt="Logo do site"><!--logo => CLASSE CRIADA PARA CENTRALIZAR A IMAGEM DENTRO A DIV CLASS AREA-->
+            <h2>Faça seu login</h2>
 
-        <!--O BOOTSTRAP ENTENDE QUE POSSUI 12 COLUNAS PARA CADA LINHA
-            QUANDO NÃO É ESPECIFICADO 'col' ELE FAZ O AJUSTE ALTOMATICAMENTE-->
-        <div class="container">
-            <div class="row">
-                <div class="col teste1"><h4>Coluna 1</h4></div>
-                <div class="col teste1"><h4>Coluna 2</h4></div>
-                <div class="col teste1"><h4>Coluna 3</h4></div>
-                <div class="w-100"></div>
-                <div class="col-2 teste1"><h4>Coluna 4</h4></div><!--SE FOR ESPECIFICADO 'col-4' O BOOTSTRAP FAZ O ALTO AJUSTE SEMPRE CONTANDO COM 12 COLUNAS AO TOTAL-->
-                <div class="col teste1"><h4>Coluna 5</h4></div>
-                <div class="col teste1"><h4>Coluna 6</h4></div>
-                <div class="w-100"></div>
-                <div class="col teste1"><h4>Coluna 7</h4></div>
-                <div class="col-6 teste1"><h4>Coluna 8</h4></div><!--OU SEJA, AQUI ELE SEPARA 6 COLUNAS E AS DEMAIS FICAM COM 3 COLUNAS-->
-                <div class="col teste1"><h4>Coluna 9</h4></div>
-                <div class="col-sm teste1"><h4>Coluna 10</h4></div><!--É POSSIVEL AJUSTAR PARA DISPOSITIVOS MOBILE-->
-                <div class="col teste1"><h4>Coluna 11</h4></div>
-                <div class="col-2 teste1"><h4>Coluna 12</h4></div>
-            </div>
+            <form action="" style="text-align: left;">
+                <p style="color: #820AD1;">E-Mail<input class="form-controll form-control espaco border-left-0 border-right-0 border-top-0" type="email" name="email"></p><br><!--class="form-control" => FORMATA O CAMPO USANDO O BOOTSTRAP-->
+                <p style="color: #820AD1;">Senha<input class="form-controll form-control espaco border-left-0 border-right-0 border-top-0" type="password" name="password"></p>         
+                <label class="remember">
+                    <input type="checkbox" name="remember" value="1"> Lembrar senha
+                </label>
+
+                <input type="submit" value="Login" class="btn btn-lg corBotaoEnter btn-block">
+                <!--btn => DEFINI QUE É UM BOTAO-->
+                <!--btn-lg => DEFINI QUE É UM BOTAO LARGO-->
+                <!--btn-primary => DEFINI QUE É UM BOTAO DE COR AZUL-->
+                <!--btn-block => DEFINI QUE É O BOTAO VAI OCUPAR TODA UMA LINHA-->
+            </form>
+
+            <P style="padding-top: 20px;"><b><a href="" style="color: #820AD1;">Esqueci minha senha></a></b></P>
+            <P><b><a href="" style="color: #820AD1;">Ainda não sou cliente></a></b></P>
         </div>
 
         <script type="text/javascript" src="assents/js/jquery-3.6.0.min.js"></script>
