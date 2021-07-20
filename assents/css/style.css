@@ -1,9 +1,9 @@
 body{
     background-color: #820AD1;
     display: flex;
-    justify-content: center;/*SERVE PARA ALINHAR A POSIÇÃO DA MINHA DIV*/
-    align-items: center;/*SERVE PARA CENTRALIZAR SEMPRE NO MEIO DA TELA A DIV*/
-    min-height: 100vh;/*SERVE PARA PEGAR A ALTURA DA TELA DO USUARIO E JOGAR O CONTEÚDO NO MEIO SEM QUEBRAR A TELA*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 h2{
@@ -12,7 +12,6 @@ h2{
     font-size: 22px;
 }
 
-/*SERVE PARA TIRAR A BORDA AZUL QUE FICA NO CAMPO INPUT AO CLICAR NO BOTAO*/
 .form-controll:focus{ 
     border-color: inherit; 
     -webkit-box-shadow: none; 
@@ -26,10 +25,10 @@ h2{
 
 .area{
     background-color: white;
-    width: 100%;/*FORMATANDO PARA DEIXAR RESPONSIVO*/
-    max-width: 355px;/*SE A TELA DO USUARIO FOR PEQUENA, ELE PEGA 100% DA TELA. SE FOR GRANDE ELA PELA O MINIMO DE 350PX*/
-    text-align: center;/*TODO O CONTEUDO SEJA CENTRALIZADO*/
-    padding: 35px;/*PARA DAR ESPAÇO NOS CANTOS E NAO DEIXAR O CONTEUDO GRUDADO*/
+    width: 100%;
+    max-width: 355px;
+    text-align: center;
+    padding: 35px;
     height: 520px;
 }
 
@@ -39,7 +38,7 @@ h2{
 }
 
 .remember{
-    padding-top: 10px;/*DANDO ESPAÇO DO INPUT ACIMA DE 10PX*/
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
