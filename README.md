@@ -18,7 +18,7 @@ Front end
 
 # Autor
 
-Werike Marques Santos
+Werike Santos
 
 https://www.linkedin.com/in/werike-santos-bb91a5167
 
